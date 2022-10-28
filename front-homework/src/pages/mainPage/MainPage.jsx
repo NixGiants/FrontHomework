@@ -2,6 +2,7 @@ import React from 'react';
 
 import './css/MainPage.css';
 import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 
 function MainPage() {
     return (
@@ -10,9 +11,7 @@ function MainPage() {
             <main>
 
             </main>
-            <footer>
-
-            </footer>
+            <Footer/>
         </>
     )
 }
