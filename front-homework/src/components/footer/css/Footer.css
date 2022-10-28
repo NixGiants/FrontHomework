@@ -1,0 +1,19 @@
+.footer{
+    max-height: 350px;
+}
+
+.container a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.copyright{
+    padding-bottom: 30px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.copyright a{
+    padding-top: 30px;
+}
