@@ -9,7 +9,34 @@ function MainPage() {
         <>
             <Header />
             <main>
-
+                <article>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div><div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae quos adipisci fugiat enim cupiditate quibusdam a dignissimos ipsam sunt ratione in vel necessitatibus, ut quas sapiente reprehenderit sed magnam.</p>
+                    </div>
+                </article>
             </main>
             <Footer/>
         </>
