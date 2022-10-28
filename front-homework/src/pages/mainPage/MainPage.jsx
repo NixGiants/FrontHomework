@@ -1,12 +1,19 @@
 import React from 'react';
 
 import './css/MainPage.css';
+import Header from '../../components/header/Header';
 
 function MainPage() {
     return (
-        <div>
-            Hello
-        </div>
+        <>
+            <Header />
+            <main>
+
+            </main>
+            <footer>
+
+            </footer>
+        </>
     )
 }
 

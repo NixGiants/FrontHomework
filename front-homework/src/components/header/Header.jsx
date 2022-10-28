@@ -3,9 +3,9 @@ import './css/Header.css';
 
 function Header() {
     return (
-        <div>
-            
-        </div>
+      <header>
+        
+      </header>
     )
 }
 
