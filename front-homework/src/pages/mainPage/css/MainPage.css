@@ -1,0 +1,48 @@
+.start_text{
+font-size: 30px;
+}
+
+.container{
+    min-width: 95%;
+    font-size: 21px;
+}
+
+.product__image{
+   margin: 1% 17%;
+}
+
+.product__image:hover{
+    margin: 0.5% 14%;
+    cursor: pointer;
+}
+
+.image{
+    width:100%;
+    height: 100%;
+}
+
+.product__description{
+    text-align: center;
+}
+
+.product__buy{
+    text-align: center;
+    font-size: 30px;
+}
+
+.button{
+    text-align: center;
+    padding:10px 60px;
+}
+
+.button p{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+.button:hover{
+    padding:15px 75px;
+} 

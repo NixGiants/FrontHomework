@@ -1,18 +1,14 @@
-import './App.css';
-import MainPage from './pages/mainPage/MainPage';
+import React from 'react';
 
-import {Button, Navbar} from 'react-bootstrap';
 import './css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
-
+import MainPage from './pages/mainPage/MainPage';
 
 function App() {
   return (
     <div className="App">
-        <MainPage/>
-        <Button clasName = 'myStyles' variant="primary">Primary</Button>
-        <Button className='btn btn-primary'>this is button</Button>
-       
+       <MainPage/>
     </div>
   );
 }
