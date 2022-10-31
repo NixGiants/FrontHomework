@@ -4,11 +4,12 @@ import './css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
 import MainPage from './pages/mainPage/MainPage';
+import SignInPage from './pages/mainPage/SignInPage';
 
 function App() {
   return (
     <div className="App">
-       <MainPage/>
+       <SignInPage/>
     </div>
   );
 }

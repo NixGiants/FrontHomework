@@ -6,7 +6,7 @@ import { Biccircle } from 'react-bootstrap-icons'
 function Footer() {
     return (
         <>
-            <footer class="text-center text-white bg-primary footer">
+            <footer class="text-center text-white bg-primary footer fixed-bottom">
                 <div class="container pt-4">
                     <section class="mb-4">
                         <a
