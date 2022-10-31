@@ -3,4 +3,12 @@
 }
 .btn{
     margin-top: 10px;
+    margin-right: 10px;
 }
+label{
+    font-size: 25px;
+}
+.sign-in{
+    margin-bottom: 11%;
+}
+
