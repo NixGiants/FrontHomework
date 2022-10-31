@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './css/SignInPage.css';
-import Header from '../../components/header/Header';
+import SignInHeader from '../../components/header/SignInHeader';
 import Footer from '../../components/footer/Footer';
 
 function SignInPage() {
     return (
         <>
-            <Header />
+            <SignInHeader />
             <div class="row justify-content-center align-items-center" >
             <form class="sign-in">
                 <fieldset>
