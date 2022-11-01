@@ -4,7 +4,7 @@ import './css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
 import MainPage from './pages/mainPage/MainPage';
-import SignInPage from './pages/mainPage/SignInPage';
+import SignInPage from './pages/signinPage/SignInPage';
 
 function App() {
   return (
