@@ -11,4 +11,6 @@ label{
 .sign-in{
     margin-bottom: 11%;
 }
-
+#sign{
+    margin-right: auto;
+}
