@@ -1,7 +1,17 @@
 import React from 'react'
 import './css/Header.css';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 
 function Header() {
+    const navigate = useNavigate();
+
+    const clickHandle = (e) =>{
+        navigate("/Pagination")
+    }
+    const mainPageClick = (e)=>{
+        navigate("/MainPage")
+    }
+
     return (
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -13,12 +23,12 @@ function Header() {
                     <div class="collapse navbar-collapse" id="navbarColor01">
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Main page
+                                <a class="nav-link active" href="#" onClick={mainPageClick}>Main page
                                     <span class="visually-hidden">(current)</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Categories</a>
+                                <a class="nav-link" href="#" onClick={clickHandle}>Categories</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Hot sales</a>
