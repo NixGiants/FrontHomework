@@ -5,13 +5,15 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 function Header() {
     const navigate = useNavigate();
 
-    const clickHandle = (e) =>{
+    const clickHandle = (e) => {
         navigate("/Pagination")
     }
-    const mainPageClick = (e)=>{
+    const mainPageClick = (e) => {
         navigate("/MainPage")
     }
-
+    const singInHandle = () => {
+        navigate("/Login")
+    }
     return (
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -34,7 +36,7 @@ function Header() {
                                 <a class="nav-link" href="#">Hot sales</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Sign in</a>
+                                <a class="nav-link" href="#" onClick={singInHandle}>Sign in</a>
                             </li>
                         </ul>
                         <form class="d-flex">
